@@ -448,6 +448,14 @@ const App: React.FC = () => {
 
           </section>
         </main>
+        <footer className="mt-20 pt-8 border-t border-white/5 text-center">
+          <p className="text-zinc-500 text-sm">
+            Built with <span className="text-red-500">💙</span> by <span className="text-white font-medium">Yash Dantale</span>
+          </p>
+          <p className="text-zinc-600 text-xs mt-2">
+            Open Source • 2026
+          </p>
+        </footer>
       </div>
     </div>
   );
