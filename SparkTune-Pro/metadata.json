@@ -1,0 +1,5 @@
+{
+  "name": "SparkTune",
+  "description": "A minimalist, high-performance Apache Spark cluster resource calculator for Data Engineers.",
+  "requestFramePermissions": []
+}
