@@ -425,7 +425,7 @@ const App: React.FC = () => {
                     </h3>
                     <p className="leading-relaxed text-sm text-zinc-400">
                       Allocating <strong>5 cores</strong> per executor is the "sweet spot" for HDFS throughput. 
-                      More cores (>5) leads to excessive thread contention. 
+                      More cores (&gt;5) leads to excessive thread contention. 
                       Fewer cores leads to too many small executors, wasting memory on metadata and overhead.
                       We calculate <code>floor(AvailableCores / 5)</code> to find the optimal count per node.
                     </p>
